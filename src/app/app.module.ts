@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-
 import { AppComponent } from './app.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { HeaderComponent } from './presentation/header/header.component';
@@ -13,7 +12,6 @@ import { SidebarComponent } from './presentation/container/sidebar/sidebar.compo
 import { FirstPageComponent } from './presentation/container/first-page/first-page.component';
 import { ImagePageComponent } from './presentation/container/image-page/image-page.component';
 import { ContactPageComponent } from './presentation/container/contact-page/contact-page.component';
-import { ContainerRoutingModule } from './presentation/container/container-routing/container-routing.module';
 
 
 @NgModule({
@@ -31,8 +29,7 @@ import { ContainerRoutingModule } from './presentation/container/container-routi
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    ContainerRoutingModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
