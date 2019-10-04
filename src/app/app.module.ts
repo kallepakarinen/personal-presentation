@@ -7,7 +7,8 @@ import { PresentationComponent } from './presentation/presentation.component';
 import { HeaderComponent } from './presentation/header/header.component';
 import { ContainerComponent } from './presentation/container/container.component';
 import { FooterComponent } from './presentation/footer/footer.component';
-import { ToolbarComponent } from './presentation/header/toolbar/toolbar.component';
+import { NavbarComponent } from './presentation/header/navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { ToolbarComponent } from './presentation/header/toolbar/toolbar.componen
     HeaderComponent,
     ContainerComponent,
     FooterComponent,
-    ToolbarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
