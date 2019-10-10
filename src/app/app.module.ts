@@ -12,7 +12,7 @@ import { SidebarComponent } from './presentation/container/sidebar/sidebar.compo
 import { FirstPageComponent } from './presentation/container/first-page/first-page.component';
 import { ImagePageComponent } from './presentation/container/image-page/image-page.component';
 import { ContactPageComponent } from './presentation/container/contact-page/contact-page.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,8 @@ import { ContactPageComponent } from './presentation/container/contact-page/cont
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
