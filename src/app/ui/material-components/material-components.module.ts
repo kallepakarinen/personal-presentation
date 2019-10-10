@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import {
-  MatExpansionModule
+  MatExpansionModule, MatCardModule
 } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const materialModules = [
   MatExpansionModule,
-  BrowserAnimationsModule
+  BrowserAnimationsModule,
+  MatCardModule
 ];
 
 @NgModule({

@@ -15,6 +15,7 @@ import { ContactPageComponent } from './presentation/container/contact-page/cont
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { WorkSchoolComponent } from './presentation/container/work-school/work-school.component';
 import { MaterialComponentsModule } from './ui/material-components/material-components.module';
+import { TechniquesComponent } from './presentation/container/techniques/techniques.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { MaterialComponentsModule } from './ui/material-components/material-comp
     FirstPageComponent,
     ImagePageComponent,
     ContactPageComponent,
-    WorkSchoolComponent
+    WorkSchoolComponent,
+    TechniquesComponent
   ],
   imports: [
     BrowserModule,

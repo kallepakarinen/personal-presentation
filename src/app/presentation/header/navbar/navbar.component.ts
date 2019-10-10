@@ -24,4 +24,7 @@ export class NavbarComponent implements OnInit {
   onWorkPage() {
     this.router.navigate(['/works']);
   }
+  onTechniquesPage() {
+    this.router.navigate(['/techniques']);
+  }
 }
