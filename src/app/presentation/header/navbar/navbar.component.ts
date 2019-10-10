@@ -20,4 +20,8 @@ export class NavbarComponent implements OnInit {
   onImagePage() {
     this.router.navigate(['/image']);
   }
+
+  onWorkPage() {
+    this.router.navigate(['/works']);
+  }
 }

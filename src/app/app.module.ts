@@ -13,6 +13,9 @@ import { FirstPageComponent } from './presentation/container/first-page/first-pa
 import { ImagePageComponent } from './presentation/container/image-page/image-page.component';
 import { ContactPageComponent } from './presentation/container/contact-page/contact-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { WorkSchoolComponent } from './presentation/container/work-school/work-school.component';
+import { MaterialComponentsModule } from './ui/material-components/material-components.module';
+
 
 @NgModule({
   declarations: [
@@ -25,12 +28,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     SidebarComponent,
     FirstPageComponent,
     ImagePageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    WorkSchoolComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    MaterialComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
